@@ -5,6 +5,7 @@ Mai is built using the [JDA](https://github.com/DV8FromTheWorld/JDA) (Java Disco
 
 ### Commands:
 - Flag command: returns an image of your desired flag
+<img src="https://i.imgur.com/C5du7iO.png"  alt ="flag" />
 - Hello command: greets you
 - String to image command: generates an image of an input string
 
