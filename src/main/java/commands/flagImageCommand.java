@@ -4,10 +4,8 @@ import imagegeneration.ImageGeneration;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import org.json.*;
 
-import javax.annotation.processing.SupportedSourceVersion;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.List;
