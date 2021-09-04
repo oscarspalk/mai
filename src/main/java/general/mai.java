@@ -22,7 +22,7 @@ public class mai{
     private static final Logger LOGGER = LoggerFactory.getLogger(mai.class);
 
     public static void main(String args[]) throws LoginException, InterruptedException {
-        JDA mai = JDABuilder.createLight("ODc0MzYzNTE4NjM0MzAzNjA4.YRF4ew.dVZNmR0-GIWG1NCszxZXZfQUr4k")
+        JDA mai = JDABuilder.createLight("token")
                 .addEventListeners(new CommandListener())
 
                 .setActivity(Activity.competing("with Dyno"))
