@@ -12,7 +12,7 @@ public class mai{
 
 
     public static void main(String args[]) throws LoginException, InterruptedException {
-        JDA mai = JDABuilder.createLight("ODc0MzYzNTE4NjM0MzAzNjA4.YRF4ew.UFO5ieOC5RvKt9OYTBe4Fs2zOdw")
+        JDA mai = JDABuilder.createLight("token")
                 .addEventListeners(new CommandListener())
 
                 .setActivity(Activity.competing("with Dyno"))
