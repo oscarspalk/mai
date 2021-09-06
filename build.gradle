@@ -13,6 +13,7 @@ repositories {
     }
 }
 dependencies {
-    //implementation 'net.dv8tion:JDA:4.3.0_277'
+    compile 'net.dv8tion:DA:4.3.0_277'
+    compile 'org.json:json:20210307'
 
 }
