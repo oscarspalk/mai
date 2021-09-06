@@ -2,6 +2,8 @@ package commands;
 
 import imagegeneration.ImageGeneration;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
