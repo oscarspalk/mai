@@ -1,1 +1,1 @@
-Worker: java build/classes/java/main/general/mai.java
+Worker: java mai-1.0-SNAPSHOT.jar
