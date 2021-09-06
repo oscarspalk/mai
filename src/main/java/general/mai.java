@@ -14,8 +14,7 @@ public class mai{
     public static void main(String args[]) throws LoginException, InterruptedException {
         JDA mai = JDABuilder.createLight(System.getenv("TOKEN"))
                 .addEventListeners(new CommandListener())
-
-                .setActivity(Activity.competing("with Dyno"))
+                .setActivity(Activity.competing("..."))
                 .build();
         mai.awaitReady();
         mai.upsertCommand("ping", "get mai's current response time").queue();
