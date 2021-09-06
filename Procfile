@@ -1,1 +1,1 @@
-Worker: java mai-1.0-SNAPSHOT.jar
+Worker: java -jar mai-1.0-SNAPSHOT.jar
