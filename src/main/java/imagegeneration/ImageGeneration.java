@@ -14,7 +14,7 @@ public class ImageGeneration {
     private Font font;
     private Rectangle drawingRect;
     public ImageGeneration(int width, int height){
-        this.generatedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+        this.generatedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         this.g2d =  generatedImage.createGraphics();
         Color color = new Color(255, 0,0);
         g2d.setPaint(color);
@@ -76,7 +76,7 @@ public class ImageGeneration {
         if(format == "jpg" || format == "png"){
             try {
                 ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                ImageIO.write(generatedImage, "jpg", baos);
+                ImageIO.write(generatedImage, "png", baos);
                 byte[] bytes = baos.toByteArray();
                 return bytes;
             }
