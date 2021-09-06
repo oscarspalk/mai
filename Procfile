@@ -1,1 +1,1 @@
-Worker: java src/main/java/general/mai.java
+Worker: build/classes/java/main/general/mai.class
