@@ -5,6 +5,11 @@ plugins{
 group 'me.olle'
 version '1.0-SNAPSHOT'
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'general.mai'
+    }
+}
 
 repositories {
     mavenCentral()
