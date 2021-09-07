@@ -1,1 +1,1 @@
-Worker: java -cp build/classes/ general.main
+Worker: java -cp build/classes/java/main general.main
